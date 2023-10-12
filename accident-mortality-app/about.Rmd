@@ -1,0 +1,18 @@
+## Author
+
+- **Name:** Jiayi Song
+- **Email:** js105@illinois.edu
+
+## Purpose
+
+This application can be used to visualize the mortality rate of accidents in the 227 different countries and regions across 5 continents (excluding Antarctica). A bar plot is created based on the types of death causes across the span of 27 years (from 1990 to 2016). The table displays the precise percentage of each category along with a summary column with the total percent of death caused by accidents in a country-year format. This application could be used for the interpretation of world's stability based on geographical location and events.
+
+## Data
+
+The original data sets comes from Tidy Tuesday (Global Mortality) and Kaggle (country to continent), and we joined the two data set so it contains both the geographical information and the differnt mortality rates.
+The data presents the mortality rate of 227 countries and regions from 1990 to 2016, with each column representing one cause of death. For the purpose of this application, filtering is used to exclude all deaths caused by different types of illnesses and focused on the mortality of accidents.
+
+## References
+
+- [Global Mortality](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018/2018-04-16)
+- [country to continent](https://www.kaggle.com/datasets/statchaitya/country-to-continent?resource=download)
